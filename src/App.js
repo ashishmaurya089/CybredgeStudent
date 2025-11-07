@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Gautam Kushwaha</h1>
+      <h1> Rajnish Kushwaha </h1>{" "}
     </div>
   );
 }
