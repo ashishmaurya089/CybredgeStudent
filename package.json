@@ -1,16 +1,29 @@
 {
+<<<<<<< HEAD
   "name": "tailwind",
+=======
+  "name": "react-first",
+>>>>>>> a4ea5a273284e2e49e2e90c20ff53d1ff6598674
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "-": "^0.0.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "D": "^1.0.0",
+    "lucide-react": "^0.553.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+<<<<<<< HEAD
+=======
+    "react-icons": "^5.5.0",
+>>>>>>> a4ea5a273284e2e49e2e90c20ff53d1ff6598674
     "react-router-dom": "^7.9.6",
     "react-scripts": "5.0.1",
+    "swiper": "^12.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,6 +51,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@craco/craco": "^7.1.0",
+>>>>>>> a4ea5a273284e2e49e2e90c20ff53d1ff6598674
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18"
