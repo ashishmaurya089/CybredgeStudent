@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/banner image for my website which website related to IT department (1).jpg'
+import bg from "../assets/banner image for my website which website related to IT department (1).jpg"
 
 const Home = () => {
   return (
