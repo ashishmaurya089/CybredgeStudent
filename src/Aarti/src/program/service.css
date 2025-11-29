@@ -1,0 +1,31 @@
+.contact {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 107, 1, 0.1) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+}
+
+.contact .section-title {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.contact .section-title::after {
+  background-color: #ff6b01;
+}

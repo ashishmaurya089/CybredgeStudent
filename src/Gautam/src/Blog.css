@@ -1,0 +1,31 @@
+
+.title{
+  margin-bottom: 70px;
+}
+.title a{
+    color: red;
+    text-decoration: none;
+}
+ .left-section {
+  width: 65%;
+}
+
+.right-section {
+  width: 30%;
+}
+@media(max-width:1050px){
+  .container-fluid .left-section{
+      width: 100%;
+  }
+}
+@media(max-width:1050px){
+  .container-fluid .right-section{
+      width: 100%;
+  }
+}
+@media(max-width:990px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+}

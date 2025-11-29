@@ -1,0 +1,39 @@
+.blog-author {
+  padding: 10px 0 40px 0;
+}
+
+.blog-author .author-container {
+  background-color: var(--surface-color);
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog-author img {
+  max-width: 120px;
+  margin-right: 20px;
+}
+
+.blog-author h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding: 0;
+  color: gray;
+}
+
+.blog-author .social-links {
+  margin: 0 10px 10px 0;
+}
+.blog-author .social-links a i {
+  color: gray;
+}
+
+.blog-author .social-links a {
+  margin-right: 5px;
+}
+
+.blog-author p {
+  font-style: italic;
+  margin-bottom: 0;
+  color: gray;
+}

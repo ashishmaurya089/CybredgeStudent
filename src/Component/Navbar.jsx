@@ -86,10 +86,11 @@ const Navbar = () => {
 </div>
 
         </nav>
+       <Link to ="/pricing">
         <button className='h-9 w-28 backdrop-blur-md hover:shadow-[0_0_20px_rgba(6,182,212,0.5)]
   text-white border border-white/20 rounded-xl shadow-lg hover:bg-white/20 transition-all duration-300'>
     Get Started
-  </button>
+  </button></Link>
         <div className='menu md:hidden text-white text-3xl'>
           <button onClick={menuToggle}>
           <GiHamburgerMenu/>
