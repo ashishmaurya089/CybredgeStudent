@@ -1,0 +1,169 @@
+/* =====================
+   Tilted PRICING Section
+===================== */
+.pricing-section {
+  position: relative;
+  padding: 80px 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
+  /* 👆 Tilted edges (same style as Testimonials) */
+}
+
+/* Optional dark gradient overlay for depth */
+.pricing-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(20, 20, 20, 0.95)
+  );
+  z-index: 0;
+}
+
+.pricing-header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #ff5a5f;
+  margin: 10px auto 25px;
+  border-radius: 2px;
+}
+
+.pricing-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 8px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards */
+.pricing-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+.pricing-box {
+  background: #1b1b1b;
+  width: 320px;
+  padding: 35px 25px;
+  border-radius: 10px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.pricing-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.featured {
+  z-index: 10;
+  background: #ff5a5f;
+  transform: scale(1.05);
+}
+
+.price-text {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.price-currency {
+  font-size: 48px;
+  font-weight: 600;
+  transform: translateY(-20px);
+}
+
+.price-amount {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.price-month {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+ul li {
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.check {
+  color: #00e676;
+  margin-right: 10px;
+}
+
+.btn-buy {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  background: #e03a3c;
+  color: #000;
+}
+
+.featured-btn {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.featured-btn:hover {
+  background: transparent;
+  color: #fff;
+}
+
+/*--------- Responsive--------- */
+@media (max-width: 768px) {
+  .pricing-box {
+    width: 100%;
+  }
+
+  .featured {
+    transform: scale(1);
+  }
+}

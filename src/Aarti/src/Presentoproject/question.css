@@ -1,0 +1,149 @@
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #c0392b;
+  margin: 10px auto 30px;
+  border-radius: 2px;
+}
+/* Container */
+.heading {
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 40px;
+}
+
+/* FAQ Item Box */
+.item {
+  background: lightgrey;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/*----- active ------*/
+.item.active {
+  border-color: #b3001b;
+  background: #fff2f5;
+}
+
+.question {
+  width: 100%;
+  background: none;
+  padding: 18px 20px;
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item.active .question {
+  color: #b3001b;
+}
+
+.question:hover {
+  background: #fff2f5;
+}
+
+.arrow {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.answer {
+  padding: 0 20px 18px 20px;
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease;
+}
+
+/*------ Fade animation ------*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*---------- RESPONSIVE DESIGN--------- */
+
+/* Small screens: tablets + large phones */
+@media (max-width: 768px) {
+  .heading {
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+  }
+
+  .question {
+    font-size: 1rem;
+    padding: 15px 16px;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+    padding: 0 16px 15px 16px;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  .underline {
+    width: 45px;
+  }
+
+  .question {
+    font-size: 0.95rem;
+    padding: 14px 14px;
+  }
+
+  .arrow {
+    font-size: 0.8rem;
+  }
+
+  .answer {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,55 @@
+.blog-comments {
+  padding: 10px 0;
+}
+
+.blog-comments .comments-count {
+  font-weight: bold;
+}
+
+.blog-comments .comment {
+  margin-top: 30px;
+  position: relative;
+}
+
+.blog-comments .comment .comment-img {
+  margin-right: 14px;
+}
+
+.blog-comments .comment .comment-img img {
+  width: 60px;
+}
+
+.blog-comments .comment h5 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.blog-comments .comment h5 a {
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+}
+.blog-comments .comment h5 a:hover {
+  color: red;
+}
+
+.blog-comments .comment h5 .reply {
+  padding-left: 10px;
+  color: gray;
+}
+
+.blog-comments .comment h5 .reply i {
+  font-size: 20px;
+}
+
+.blog-comments .comment p {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.blog-comments .comment.comment-reply {
+  padding-left: 40px;
+}

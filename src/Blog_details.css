@@ -1,0 +1,118 @@
+.card {
+  margin-bottom: 30px;
+}
+.card .img {
+  height: 550px;
+}
+.card .meta-top {
+  margin-top: 20px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.card .meta-top ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card .meta-top ul li+li {
+  padding-left: 20px;
+}
+
+.card .meta-top i {
+  font-size: 16px;
+  margin-right: 8px;
+  line-height: 0;
+  color: color-mix(in srgb, gray, transparent 40%);
+}
+
+.card .meta-top a {
+  color: color-mix(in srgb, gray, transparent 40%);
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+blockquote {
+  overflow: hidden;
+  background-color: color-mix(in srgb, black, transparent 80%);
+  padding: 60px;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+blockquote:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card .blog-inside-img {
+  height: 550px;
+}
+@media (max-width: 768px) {
+  .card .blog-inside-img {
+    height: auto;
+  }
+  .card .img {
+    height: auto;
+  }
+}
+.meta-bottom {
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, rgb(58, 58, 58), transparent 90%);
+}
+ .meta-bottom i {
+  color: color-mix(in srgb, gray, transparent 40%);
+  display: inline;
+}
+ .meta-bottom a {
+  color: color-mix(in srgb, gray, transparent 40%);
+  transition: 0.3s;
+  text-decoration: none;
+  margin-left: 5px;
+}
+ .meta-bottom a:hover {
+  color: rgb(247, 55, 55);
+}
+.meta-bottom .cats {
+  list-style: none;
+  display: inline;
+  padding: 0 20px 0 0;
+  font-size: 14px;
+}
+ .meta-bottom .cats li {
+  display: inline-block;
+}
+ .meta-bottom .tags {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  font-size: 14px;
+}
+.meta-bottom .tags li {
+  display: inline-block;
+}
+
+.meta-bottom .tags li+li::before {
+  padding-right: 6px;
+  color: var(--default-color);
+  content: ",";
+}
+ .meta-bottom .share {
+  font-size: 16px;
+}
+ .meta-bottom .share i {
+  padding-left: 5px;
+}
+
