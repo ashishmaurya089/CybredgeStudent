@@ -4,7 +4,7 @@ import Section2 from "./Section2";
 
 export default function Blog() {
   return (
-    <div className="w-full">
+    <div className="w-screen">
       <div className="max-w-6xl mx-auto mt-10 p-0">
 
         {/* Title */}
