@@ -77,7 +77,6 @@ useEffect(() => {
       <Pricing/>
       <Team2 />
       <PortfolioV/>
-      <BlogG/>
        <Sv/>
       <State></State>
       <Tabs/>
@@ -116,7 +115,7 @@ useEffect(() => {
 
 {/* Vishal */}
 
- <Route path="/" element={<All />} />
+ <Route path="/all" element={<All />} />
 <Route path="/application" element={<Application />} />
 <Route path="/product" element={<Product />} />
 <Route path="/branding" element={<Branding />} />
