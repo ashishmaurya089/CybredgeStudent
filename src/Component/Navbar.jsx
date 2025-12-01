@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom';
+import logo from "../assets/logo.png";
+
 
 
 const Navbar = () => {
@@ -19,14 +21,22 @@ const Navbar = () => {
 
 
   return (
-    <header className="fixed top-0 left-0 w-full backdrop-blur-sm bg-white/5 border-b border-white/20 z-50">
+    <header className="fixed top-0 left-0 w-full bg-[#070022] border-b border-white/20 z-50">
 
     <div className='p-3 m-2 w-full bg-transparent flex  justify-between'>
-      <Link to="/"> 
-       <div>
-        <h1 className='text-4xl md:text-6xl font-bold mb-4l flex-nowrap whitespace-nowrap text-white'>Cybredge Pvt Ltd.</h1>
-       </div>
-       </Link>
+<Link to="/">
+  <img 
+    src={logo}
+    alt="Cybredge Logo"
+    className="h-14 md:h-18 w-auto object-contain"
+  />
+</Link>
+
+
+
+
+
+
        <div className='mr-16 relative flex items-center gap-4 md:gap-8'>
 
         <nav
